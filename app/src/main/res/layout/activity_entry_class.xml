@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000"
+    tools:context=".EntryClass">
+
+    <EditText
+        android:id="@+id/secrectText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/qrcodeDisplay"
+        android:layout_marginTop="15sp"
+        android:gravity="center"
+        android:textColor="#fff"
+        android:hint="Enter Your Secrect Message"
+        android:textColorHint="#fff"
+        android:lineHeight="20dp"
+        android:lines="10"
+
+        ></EditText>
+
+    <Button
+        android:id="@+id/nextPage"
+        android:layout_width="167dp"
+        android:layout_height="77dp"
+        android:layout_below="@+id/secrectText"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150dp"
+        android:layout_marginBottom="112dp"
+        android:textColor="#fff"
+        android:background="@color/colorPrimary"
+        android:text="Create QR Code"></Button>
+
+</RelativeLayout>

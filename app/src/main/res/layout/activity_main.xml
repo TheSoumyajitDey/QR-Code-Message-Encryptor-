@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/qrcodeDisplay"
+        android:layout_width="384dp"
+        android:layout_height="378dp"
+        android:layout_marginTop="20sp"
+        android:layout_centerHorizontal="true"
+
+        />
+
+    <Button
+        android:id="@+id/nextPage"
+        android:layout_width="167dp"
+        android:layout_height="77dp"
+        android:layout_below="@+id/secrectText"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="150dp"
+        android:layout_marginBottom="75dp"
+        android:background="@color/colorPrimary"
+        android:text="Save QR"
+        android:layout_centerHorizontal="true"
+        android:textColor="#fff"></Button>
+
+
+</RelativeLayout>
